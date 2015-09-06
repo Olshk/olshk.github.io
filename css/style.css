@@ -1,0 +1,83 @@
+body {
+		/* This is a CSS comment*/
+		background-image: url(../images/background.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		font-family: 'Oxygen', sans-serif;
+	}
+
+.custom {
+   cursor: url(../images/cursor.png);
+}
+
+.header {
+	max-width: 600px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 auto;
+	padding: 40px;
+	margin-bottom: 40px
+}
+
+.logo {
+	max-width: 600px;
+	max-height: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	box-shadow: 0px 4px 25px 5px rgba(255, 255, 255, 0.6);
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.main {
+	max-width: 600px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 auto;
+	padding: 40px;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h3 {
+	cursor: pointer;
+	text-align: center;
+}
+
+img {margin: 35px auto;
+	display: block;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: #00008B;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover { 
+	color: #228B22;
+}
+
+@media only screen and (max-width: 967px) {
+	body {
+		background: url(../images/background2.jpg);
+	}
+
+}
